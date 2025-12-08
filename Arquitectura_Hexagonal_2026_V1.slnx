@@ -1,0 +1,4 @@
+<Solution>
+  <Folder Name="/HexagonalArchitectureMinimal/" />
+  <Project Path="Domain/Domain.csproj" />
+</Solution>

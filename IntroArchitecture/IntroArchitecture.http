@@ -1,0 +1,6 @@
+@IntroArchitecture_HostAddress = http://localhost:5124
+
+GET {{IntroArchitecture_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
