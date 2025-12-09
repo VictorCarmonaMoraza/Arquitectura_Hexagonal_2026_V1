@@ -10,8 +10,9 @@ builder.Services.AddControllers();
 
 // Definimos la ruta del archivo JSON
 string pathFile = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "productApi.json");
-//.Services.AddTransient<Domain.Ports.Secundary.IRepository>(provider => new JsonRepository.ProductRepository(pathFile));
-builder.Services.AddTransient<Domain.Ports.Secundary.IRepository>(provider => new XMLRepository.XMLProductRepository(pathFile));
+string pathFile2 = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "productApi.xml");
+builder.Services.AddTransient<Domain.Ports.Secundary.IRepository>(provider => new JsonRepository.ProductRepository(pathFile));
+builder.Services.AddTransient<Domain.Ports.Secundary.IRepository>(provider => new XMLRepository.XMLProductRepository(pathFile2));
 builder.Services.AddTransient<IService, ProductService>();
 
 builder.Services.AddEndpointsApiExplorer();
