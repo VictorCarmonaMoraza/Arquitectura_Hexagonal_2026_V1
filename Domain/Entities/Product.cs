@@ -21,7 +21,7 @@
             }
         }
 
-        public decimal Precio
+        public decimal Price
         {
             get => _price;
             set
@@ -39,7 +39,7 @@
         {
             this.Id = id;
             this.Name = name;
-            this.Precio = price;
+            this.Price = price;
         }
     }
 }
