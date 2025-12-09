@@ -1,6 +1,7 @@
 <Solution>
   <Folder Name="/HexagonalArchitectureMinimal/">
     <Project Path="ConsoleApp/ConsoleApp.csproj" Id="21811b24-7314-41c3-b7e3-7895f7e304d2" />
+    <Project Path="XMlRepository/XMlRepository.csproj" Id="c0ca3d66-e220-49bd-9c50-3b4b558cfd9b" />
   </Folder>
   <Project Path="API/API.csproj" Id="439a4320-2749-4d3e-a8ed-d0c1703dd744" />
   <Project Path="Domain/Domain.csproj" />
