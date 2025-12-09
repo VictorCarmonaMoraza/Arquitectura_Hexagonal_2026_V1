@@ -26,7 +26,7 @@ namespace JsonRepository
             //Deserializamos la informacion
             var products = JsonSerializer.Deserialize<List<Product>>(jsonString);
 
-            //Si devuleve null, devolvemos una lista vacia
+            //El archivo puede estar vacio en ese caso devolvemos una lista vacia
             return products ?? new List<Product>();
 
         }
@@ -43,7 +43,7 @@ namespace JsonRepository
             var options = new JsonSerializerOptions { WriteIndented = true };
 
 
-            //Convertimso a cadena de texto
+            //Convertimos a cadena de texto
             string jsonString = JsonSerializer.Serialize(products, options);
             //Escribimos en el archivo
             File.WriteAllText(_path, jsonString);

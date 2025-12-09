@@ -17,7 +17,10 @@ namespace Domain.Services
 
         public IEnumerable<Product> GetAll()
         {
+
+            //Metodos del repositorio
             var products = _repository.GetAll();
+            //Devolvemos los productos
             return products;
         }
 
@@ -26,7 +29,7 @@ namespace Domain.Services
             //Creacion de un nuevo producto
             var product = new Product(Guid.NewGuid(), marca, price);
 
-            //Guardamos el producto
+            //Guardamos el producto, metodo del repositorio
             _repository.Save(product);
 
         }
