@@ -2,6 +2,7 @@
   <Folder Name="/HexagonalArchitectureMinimal/">
     <Project Path="ConsoleApp/ConsoleApp.csproj" Id="21811b24-7314-41c3-b7e3-7895f7e304d2" />
   </Folder>
+  <Project Path="API/API.csproj" Id="439a4320-2749-4d3e-a8ed-d0c1703dd744" />
   <Project Path="Domain/Domain.csproj" />
   <Project Path="JsonRepository/JsonRepository.csproj" Id="777521f3-82f5-40fb-a4f5-0e12887ca92e" />
 </Solution>

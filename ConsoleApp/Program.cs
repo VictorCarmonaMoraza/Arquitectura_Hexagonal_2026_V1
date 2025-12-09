@@ -8,7 +8,7 @@ using Microsoft.Extensions.DependencyInjection;
 using System;
 
 // Definimos la ruta del archivo JSON
-string pathFile = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "product.json");
+string pathFile = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "productConsola.json");
 
 
 // 
